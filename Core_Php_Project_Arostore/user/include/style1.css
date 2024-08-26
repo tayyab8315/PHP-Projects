@@ -1,0 +1,125 @@
+
+.owl-theme{
+    width: 90% !important;
+    margin: 0 5% 0 5% !important;  
+ }
+   .carousel-wrapper {
+     overflow: hidden;
+     width: 100vw;
+ position: relative;
+ text-align: center;
+ font-family: sans-serif;
+}
+.owl-carousel {
+   width: 100%;
+
+}
+.owl-carousel .owl-nav {
+ overflow: hidden;
+ height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+ background: #5110e9;
+ 
+}
+.owl-theme .owl-dots{
+   display: none;
+}
+
+.owl-carousel .item {
+ text-align: center;
+}
+.owl-carousel .nav-button {
+ height: 70px;
+ width: 25px;
+ cursor: pointer;
+ position: absolute;
+ top: 110px !important;
+}
+.owl-carousel .nav-button:hover{
+ background-color: #ffb300 !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+ pointer-events: none;
+ opacity: 0.25;
+}
+.owl-carousel .owl-prev {
+   transition: all ease-out 0.7s;
+ left: -35px;
+ opacity: 0;
+}
+.owl-carousel .owl-next {
+ right: -35px;
+ opacity: 0;
+ transition: all ease-out 0.7s;
+}
+.owl-carousel:hover .owl-next
+{
+ opacity: 1;
+   right: 15px;
+}
+.owl-carousel:hover .owl-prev
+{
+ opacity: 1;
+   left: 15px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+ color: #ffffff;
+ font-size: 39px;
+ background: #000000;
+ border-radius: 3px;
+}
+.owl-carousel .prev-carousel:hover {
+ background-position: 0px -53px;
+}
+.owl-carousel .next-carousel:hover {
+ background-position: -24px -53px;
+}
+.card-img-top{
+ margin: 0 auto;
+height: 320px !important;
+width: 300px !important;
+}
+.card{
+ border: 0px solid black !important;
+ position: relative;
+}
+.btn-group{
+ width: 90%;
+ position: absolute;
+ top: 65%;
+ left: 5%;
+
+}
+.carousalbtn1{
+ transform: translateY(40px);
+ transition: all ease-out 0.7s;
+ opacity: 0;
+}
+.carousalbtn2{
+ transform: translateY(-40px);
+ transition: all ease-out 0.7s;
+ opacity: 0;
+}
+.item:hover .carousalbtn1{
+ transform: translateY(0px);
+ opacity: 1;
+}
+.item:hover .carousalbtn2{
+ transform: translateY(0px);
+ opacity: 1;
+}
+.warning{
+ transition: all ease-out 0.7s;
+box-shadow:3px 3px 8px darkgrey !important;
+}
+.warning:hover{
+ background-color: #ffb300;
+ color: #ffffff !important;
+}
+.card-body i{
+ color: #ffb300;
+}

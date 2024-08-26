@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* font-family: 'Noto Serif', serif; */
+    /* font-family: 'Kaushan Script', cursive; */
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    
+
+}
+.carousel-item{
+padding-left: 23%;
+color: white !important;
+
+}
+.carousel-item img{
+    width: 100vw !important;
+}
+.commerce{
+    display: block;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.button1{
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.nav-item .nav-link{
+    color: black;
+}
+.top-nav,.nav-dropdown{
+    background-color: black;
+}
+.carousel-item{
+    width: 100% !important;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 77.6vh;
+}
+.carousel-caption{
+    font-size: 40px;
+}
+.cardbttn,.slider-heading{
+    color: #e02b20;
+}
+.modal-header,.closebtn,.searchbutton,.slider-btn{
+    background-color: #ffb300;
+}
+.carts{
+    padding-left: 18%;
+}
+.navbtn{
+    margin-left: 390px;
+}
+.navbtn span{
+    color: #ffb300;
+}
+.card-1{
+    background-image: url(img/slide-banner-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(img/slide-v1-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(img/slide-v2-banner-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-body .btn{ 
+    
+transform: translateY(60px);
+transition: 0.5s;
+display: none;
+}
+.cards-5:hover .btn{
+    display: block;
+    transform: translateY(0px);
+}
+.cards-5:hover{
+box-shadow: 1px 1px 5px 1px gray;
+}
+.cards-5{ 
+    transition: 0.5s;
+    height: 95%;
+}
+.banner-img{
+    height: 95%;
+}
+.banner-img-1{
+    height: 97.5%;
+}
+.card-text{
+
+}
+.cards-5:hover .card-text{
+    display: none;
+}
+.details{
+    color: black;
+}
+.lastcards{
+    box-shadow: 1px 1px 5px 1px gray;
+    }
+    .fixicon{
+        height: 50px;
+        width: 50px;
+        /* background-image: url(img/heart-wishlist-24.png);
+        background-position: center center; 
+        background-repeat: no-repeat; */
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px gray;
+        position: fixed;
+        right: 100px;
+        bottom:50px;
+
+    }
+    #inputGroup-sizing-default{
+        color: white;
+        background-color: #e02b20;
+    }
+    .footerlogo{
+        height: 50px;
+        width: 130px;
+    }
+    .item img{
+        height: 200px !important;
+        width: 200px !important;
+        border-radius: 50%;
+    }
+    .item{
+        height: 250px !important;
+        width: 201px !important;
+        text-align: center !important;
+        margin-left: 30px !important;
+
+    }
+    .item span a{
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+    }
+    .item span a:hover{
+        text-decoration: none;
+        color: #ffb300;
+    }
+        @media only screen and (max-width: 1440px) {
+            .carousel-item{
+                padding-left: 23%;
+                
+                }
+        }
+        @media only screen and (max-width: 1200px) {
+            .navbtn{
+                margin-left:195px;
+            }
+        }
+        @media only screen and (max-width: 992px) {
+            .carousel-item{
+                padding-left: 13%;
+                font-size: 14px;
+                }
+                .navbtn{
+                    margin-left:15px;
+                }
+        }
+        @media only screen and (max-width: 768px) {
+            .carousel-item{
+                padding-left: 12%;
+                font-size: 10px;
+                }
+                .navbtn{
+                    margin-left: 0%;
+                }
+        }
+        @media only screen and (max-width: 576px) {
+            .carousel-item{
+                padding-left: 10%;
+                font-size: 9px;
+                }
+                .navbtn{
+                    margin-left: 90px;
+                }
+        }
+        @media only screen and (max-width: 480px) {
+            .carousel-item{
+                padding-left: 16%;
+                font-size: 5px;
+                }
+        }
+       
+  
